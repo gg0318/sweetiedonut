@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/tab.css">
+    <link rel="stylesheet" href="css/pc.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>
+                <a href="#"><img class="m" src="./images/logoMobile.png" alt=""></a>
+                <a href="#"><img class="tab pc" src="./images/logo.png" alt=""></a>
+            </h1>
+            <div class="btn-nav">
+                <button type="button">
+                    <span>메뉴</span>
+                </button>
+            </div>
+            <nav>
+                <div class="btn-close">
+                    <button type="button">
+                        <span>close</span>
+                    </button>
+                </div>
+                <ul class="gnb">
+                    <li><a href="#">매장찾기</a></li>
+                    <li><a href="#">도넛</a></li>
+                    <li><a href="#">커피와 음료</a></li>
+                    <li><a href="#">선물하기</a></li>
+                    <li><a href="#">채용정보</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+                <ul class="util">
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="#">멤버십</a></li>
+                </ul>
+            </nav>
+            <div class="btn-member">
+                <button type="button">
+                    <img class="m" src="./images/btnMem.png" alt="">
+                </button>
+            </div>
+        </header>
+    </div> 
+    <script>
+        const $nav = document.querySelector("nav");
+        const $navOpn = document.querySelector(".btn-nav");
+        const $navCls = document.querySelector(".btn-close");
+    
+        $navOpn.addEventListener("click", () => {
+            $nav.style.left = 0;
+        });
+        $navCls.addEventListener("click", () => {
+            $nav.style.left = "-100%"; 
+        });
+    </script>   
+</body>
+</html>
