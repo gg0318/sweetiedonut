@@ -1,9 +1,7 @@
 /* TABLET.css : tablet영역 css */
 @media (min-width: 768px) {
-    img.m{display: none;}
-    img.pc{display: none;}
+    img.m, img.pc, button.m{display: none;}
     img.tab{display: block;}
-    button.m{display: none;}
 }
 @media (min-width: 960px) {
 }
