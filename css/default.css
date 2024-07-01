@@ -120,9 +120,7 @@ header .wrap nav .util li{
 }
 .main .box img{width: 100%;}
 
-.main .box{}
-
-.main .box h2{
+.main .box h3{
     font-size: 30px;
     font-weight: 400;
 }
@@ -131,4 +129,10 @@ header .wrap nav .util li{
     font-size: 12px;
     font-weight: 400;
     padding: 20px;
+}
+
+.event h2{
+    font-size: 30px;
+    color: #363636;
+    font-weight: bold;
 }
