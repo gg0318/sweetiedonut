@@ -111,3 +111,24 @@ header .wrap nav .util li{
     font-size: 12px;
     color: #fff;
 }
+
+.banner img{width: 100%;}
+
+.main .box{
+    padding: 20px;
+    text-align: center;
+}
+.main .box img{width: 100%;}
+
+.main .box{}
+
+.main .box h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.main .box p{
+    font-size: 12px;
+    font-weight: 400;
+    padding: 20px;
+}
